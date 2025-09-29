@@ -1,0 +1,26 @@
+{
+  "browser": {
+    "isolated": false,
+    "browserName": "chromium",
+    "launchOptions": {
+      "channel": "chrome",
+      "headless": false
+    },
+    "cdpEndpoint": "ws://127.0.0.1:9222/devtools/browser/45a82305-b205-43bf-83b8-a46431eadab2",
+    "contextOptions": {
+      "permissions": [
+        "clipboard-read",
+        "clipboard-write"
+      ]
+    }
+  },
+  "capabilities": [
+    "core",
+    "tabs",
+    "install",
+    "pdf",
+    "vision"
+  ],
+  "imageResponses": "allow",
+  "saveTrace": true
+}
